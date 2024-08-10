@@ -3,3 +3,105 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@media (max-width: 1160px){
+    body{
+        width: 100vw;
+        height: fit-content;
+    }
+    header, nav{
+        width: 100%;
+        height: fit-content;
+    }
+    #juli-nit-burguer-box{
+        width: 75%;
+        height: fit-content;
+    }
+    #juli-hero-section{
+        width: 100%;
+        height: fit-content;
+    }
+    #juli-hero-container{
+        width:initial;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    #juli-central-section{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #juli-central-container{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    .juli-thumbnail-container{
+        width: 25%;
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+    }
+    #juli-footer-container{
+        width: 75%;
+        height: fit-content;
+    }
+}
+@media (max-width: 768px){
+    body{
+        width: 100vw;
+        height: fit-content;
+    }
+    header, nav{
+        width: 100%;
+        height: fit-content;
+    }
+    #juli-nit-burguer-box{
+        width: 75%;
+        height: fit-content;
+    }
+    #juli-hero-section{
+        width: 100%;
+        height: fit-content;
+    }
+    #juli-hero-container{
+        width:initial;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    #juli-central-section{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #juli-central-container{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 5%;
+    }
+    .juli-thumbnail-container{
+        width: 25%;
+        height: auto;
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+    }
+    #juli-footer-container{
+        width: 75%;
+        height: fit-content;
+    }
+}
+
