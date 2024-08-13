@@ -43,6 +43,7 @@
     }
     .juli-thumbnail-container{
         width: 25%;
+        margin-bottom: 2%;
     }
     footer{
         width: 100%;
@@ -88,16 +89,19 @@
         height: fit-content;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 5%;
     }
     .juli-thumbnail-container{
         width: 25%;
         height: auto;
+        margin-bottom: 2%;
     }
     footer{
         width: 100%;
         height: fit-content;
+        margin-top: 5%;
     }
     #juli-footer-container{
         width: 75%;
